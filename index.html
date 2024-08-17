@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>my document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg sticky-top">
+        <div class="container-fluid container-sm">
+            <a class="navbar-brand" href="#" style="color: #f27e3b;font-weight: bolder;"><i class="fa-solid fa-burger"></i> foodwa<span style="color: #fd9000;">Gon</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <span class="nav-link active" aria-current="page" style="font-weight: bold;">Delivry to: <span style="font-size: smaller; font-weight: bold;"><i class="fa-solid fa-location-dot" style="color: #fd9000;"></i> Current Location Mirpur 1 Bus Stand, Dhaka</span></span>
+                    </li>
+                </ul>
+
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Food" aria-label="Search">
+                    <button class=""
+                        style="width: 140px; height: 35px; border: none; outline: none; background-color: white; border-radius: 2px; color: #ffb30e; font-weight: bold  ; box-shadow: 10px 10px 10px 0px rgba(235, 195, 16, 0.1);"
+                        type="submit"><i class="fa-solid fa-person"></i> Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bigDiv">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="para">
+                    <div class="headingDiv">
+                        <p class="para1">Are you Starving?</p>
+                        <p class="para2">With a few click,find meals <br class="break"> that are accessable near you</p>
+                    </div>
+
+                    <!-- new card -->
+
+                    <div class="card my-card" style="max-width: 600px; margin-left: 100px;">
+                        <div class="row g-0">
+                            <div class="col-md-8 col-lg-8 col-sm-8">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Card title</h5> -->
+                                    <div class="card-header bg-transparent border-success"><button class="delbtn">
+                                            <i class="fa-solid fa-bicycle"></i> Delivery</button>
+                                        <button class="pickbtn "><i class="fa-solid fa-bag-shopping"></i> Pick
+                                            UP</button>
+                                    </div>
+
+                                    <!-- <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p> -->
+                                    <div class="location d-flex align-items-center">
+                                        <div class="inputArea">
+                                            <div class="loc-icon "><i class="fa-solid fa-location-dot "></i></div>
+                                            <input class="text-area" name="" id=""
+                                                placeholder="Enter Your Address"></input>
+                                        </div>
+                                        <button class="findbtn">Find Food</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <img class="img1 img-fluid" src="./asset/img1.png" alt="img1" width="550px" height="550px">
+            </div>
+        </div>
+    </div>
+
+    <!-- discount % off  card -->
+
+    <div class="container-fluid" style=" ">
+
+
+        <div class="row " style="display: flex;  justify-content: center; align-items: center; flex-wrap: wrap;">
+            <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3">
+                <div class="card" style="width: 18rem; position: relative; border: none;">
+                    <img class="iii" src="./asset/img2.png" class="card-img-top rounded" alt="...">
+                    <div class="discount">
+                        15%Off</div>
+                    <div class="card-body card-bottom">
+                        <p class="card-text ">Flat Hill Slingback</p>
+                        <p class="card-text card-rem">6 days Remaning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3  mt-3">
+                <div class="card" style="width: 18rem; border: none;">
+                    <img class="iii" src="./asset/img3.png" class="card-img-top rounded" alt="...">
+                    <div class="discount">
+                        15%Off</div>
+                    <div class="card-body card-bottom">
+                        <p class="card-text">Flat Hill Slingback</p>
+                        <p class="card-text card-rem">6 days Remaning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3  mt-3">
+                <div class="card" style="width: 18rem; border: none;">
+                    <img class="iii" src="./asset/img4.png" class="card-img-top rounded" alt="...">
+                    <div class="discount">
+                        15%Off</div>
+                    <div class="card-body card-bottom">
+                        <p class="card-text">Flat Hill Slingback</p>
+                        <p class="card-text card-rem">6 days Remaning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3">
+                <div class="card" style="width: 18rem; border: none;">
+                    <img class="iii" src="./asset/img5.png" class="card-img-top rounded" alt="...">
+                    <div class="discount">
+                        15%Off</div>
+                    <div class="card-body card-bottom">
+                        <p class="card-text">Flat Hill Slingback</p>
+                        <p class="card-text card-rem">6 days Remaning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- location cards starts -->
+
+    <div class="container-fluid text-center "
+        style="display: flex; justify-content: center; background-color: #fff7e9; ">
+        <div class="container text-center">
+            <div class="row locationDiv text-center"
+                style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                <div class="para-div">
+                    <h1 class="para3">How does it works</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 10rem;">
+                        <img src="./asset/img6.png" class="card-img-top" alt="..." width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text para4"><span class="heading-card">Select Location</span> <br>Choose the
+                                location where your food will be delivered</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 10rem;">
+                        <img src="./asset/img7.png" class="card-img-top" alt="..." width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text para4"><span class="heading-card">Choose order</span> <br>Check over
+                                hundreds of menus to pick your favorite food.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 10rem;">
+                        <img src="./asset/img8.png" class="card-img-top" alt="..." width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text para4"><span class="heading-card">Pay advanced</span> <br>It's quick,
+                                safe, and simple. Select several methods of payment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 10rem;">
+                        <img src="./asset/img9.png" class="card-img-top" alt="..." width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text para4"><span class="heading-card">Enjoy meals</span> <br>Food is made
+                                and delivered directly to your home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- location cards ends -->
+
+    <!-- order cards starts-->
+    <div class="container-fluid" style=" background-color: #fff7e9; ">
+        <div class="container">
+            <div class="row"
+                style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                <div class="para-div">
+                    <h1 class="para3">Populer Items</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img11.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text"><span class="food-item">Toffe's Cake</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-location-dot "></i> Top
+                                    Sticks</span><br><span class="price">$4.00</span><br>
+                                <button class="order-btn">Order Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img10.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Cheese Burger</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-location-dot "></i> Burger
+                                    Arena</span><br><span class="price">$3.88</span><br>
+                                <button class="order-btn">Order Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img12.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Dancake</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-location-dot "></i> Cake
+                                    World</span><br><span class="price">$1.99</span><br>
+                                <button class="order-btn">Order Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img13.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Crispy Sandwitch</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-location-dot "></i> Fastfood
+                                    Dine</span><br><span class="price">$3.00</span><br>
+                                <button class="order-btn">Order Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img14.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text ">Thai Soup</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-location-dot "></i>Foody
+                                    Man</span><br><span class="price">$2.79</span><br>
+                                <button class="order-btn">Order Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- order cards ends -->
+
+    <!-- featured cards starts -->
+    <div class="container-fluid " style="background-color: #fff7e9; ">
+        <div class="container">
+            <div class="row"
+                style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                <div class="para-div">
+                    <h1 class="para3">Featured Restaurants</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img15.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text"><span class="food-item">Toffe's Cake</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i> Top Sticks</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img16.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Cheese Burger</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i> 46</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img17.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Dancake</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i> 40</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img18.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Crispy Sandwitch</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i> 20</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img19.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Crispy Sandwitch</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i> 50</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img20.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Crispy Sandwitch</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i> 50</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img21.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text">Crispy Sandwitch</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i> 50</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-3 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card loc-card" style="width: 14rem;">
+                        <img style="border-radius: 20px;" src="./asset/img22.png" class="card-img-top" alt="..."
+                            width="100px" height="200px">
+                        <div class="card-body">
+                            <p class="card-text ">Thai Soup</span> <br>
+                                <span class="branch-item"><i class="fa-solid fa-star"></i>50</span><br>
+                                <button class="featured-btn">Opens Now</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- featured cards ends -->
+
+    <!-- search by food cards starts -->
+    <div class="container-fluid ">
+        <div class="container">
+            <div class="row"
+                style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+                <div class="para-div">
+                    <h1 class="para3">Search by Food</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card " style="width: 14rem; border: none;">
+                        <img style="border-radius: 50%; width: 150px; height: 150px; " src="./asset/img23.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center"><span class="food-item">Pizza</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card " style="width: 14rem; border: none;">
+                        <img style="border-radius: 50%; width: 150px; height: 150px;" src="./asset/img24.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center"><span class="food-item">Burger</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card " style="width: 14rem; border: none;">
+                        <img style="border-radius: 50%; width: 150px; height: 150px;" src="./asset/img25.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center"><span class="food-item">Noodles</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card " style="width: 14rem; border: none;">
+                        <img style="border-radius: 50%; width: 150px; height: 150px;" src="./asset/img26.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><span class="food-item text-center">Sub-sandwiches</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card" style="width: 14rem; border: none;">
+                        <img style="border-radius: 50%; width: 150px; height: 150px;" src="./asset/img27.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center"><span class="food-item">Chowmein</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xl-2 mt-3" style="display: flex; justify-content: center;">
+                    <div class="card" style="width: 14rem; border: none;">
+                        <img style="border-radius: 50%; width: 150px; height: 150px;" src="./asset/img28.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center"><span class="food-item">Steak</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search by foods cards ends -->
+
+    <!-- Best Deals Card Start -->
+
+    <div class="container-fluid mt-5"
+        style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <div class="row" style="display: flex; justify-content: center; align-items: center; ">
+            <!-- 1 -->
+            <div class="col col-xl-10 col-lg-10 col-md-8 col-sm-6 style=" display: flex; justify-content: center;"">
+                <div class="card mt-5"
+                    style="width: 1000px; height: 380px; display: flex; justify-content:center; border: none; border-radius: 10px;">
+                    <div class="row g-0" style="display: flex; justify-content: center">
+                        <div class="col-md-8 col-xl-9 col-sm-9" style="height: 380px ; width: 600px;">
+                            <img src="./asset/crispy-sandwiches.png" style="height: 100%; width: 100%;"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-4 col-xl-4 col-sm-4">
+                            <div class="card-body"
+                                style="width: 400px; height: 380px; display: flex; justify-content: center; align-items: center; flex-direction: column ; background-color: beige;">
+                                <h5 class="card-title text-center" style="font-size: 2rem; font-weight: bold;">Best deals  <span style="color: #ffb30e">Crispy Sandwiches</span>
+                                </h5>
+                                <p class="card-text text-center">Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                                </p>
+                                <button class="btn" type="button" style="padding-inline: 90px; color: white; font-weight: bold; background-color: 
+                                    #ffb30e; margin-top: 100px;">PROCEED TO
+                                    ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+
+            <div class="col col-xl-10 col-lg-10 col-md-8 col-sm-6 style=" display: flex; justify-content: center;"">
+                <div class="card mt-5"
+                    style="width: 1000px; height: 380px; display: flex; justify-content:center; border: none; border-radius: 10px;">
+                    <div class="row g-0" style="display: flex; justify-content: center">
+                        <div class="col-md-8 col-xl-9 col-sm-9" style="height: 380px ; width: 600px;">
+                            <img src="./asset/fried-chicken.png" style="height: 100%; width: 100%;"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-4 col-xl-4 col-sm-4">
+                            <div class="card-body"
+                                style="width: 400px; height: 380px; display: flex; justify-content: center; align-items: center; flex-direction: column ; background-color: beige;">
+                                <h5 class="card-title text-center" style="font-size: 2rem; font-weight: bold;">Celebrate
+                                    parties with <span style="color: #ffb30e">Fried Chicken</span>
+                                </h5>
+                                <p class="card-text text-center">Get the best fried chicken smeared with a lip smacking
+                                    lemon chili flavor. Check out best deals for fried chicken.</p>
+                                </p>
+                                <button class="btn" type="button" style="padding-inline: 90px; color: white; font-weight: bold; background-color: 
+                                    #ffb30e; margin-top: 100px;">PROCEED TO
+                                    ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col col-xl-10 col-lg-10 col-md-8 col-sm-6 style=" display: flex; justify-content: center;"">
+                <div class="card mt-5"
+                    style="width: 1000px; height: 380px; display: flex; justify-content:center; border: none; border-radius: 10px;">
+                    <div class="row g-0" style="display: flex; justify-content: center">
+                        <div class="col-md-8 col-xl-9 col-sm-9" style="height: 380px ; width: 600px;">
+                            <img src="./asset/pizza.png" style="height: 100%; width: 100%;"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-4 col-xl-4 col-sm-4">
+                            <div class="card-body"
+                                style="width: 400px; height: 380px; display: flex; justify-content: center; align-items: center; flex-direction: column ; background-color: beige;">
+                                <h5 class="card-title text-center" style="font-size: 2rem; font-weight: bold;">Wanna eat hot & <span style="color: #ffb30e">spicy Pizza?</span>
+                                </h5>
+                                <p class="card-text text-center">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+                                </p>
+                                <button class="btn" type="button" style="padding-inline: 90px; color: white; font-weight: bold; background-color: 
+                                    #ffb30e; margin-top: 100px;">PROCEED TO
+                                    ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best deal cards ends -->
+    <div class="container-fluid"
+        style="height: 300px; background-image: url(./asset/back-ground-img.png); background-size:cover;background-position: center center; margin-top: 20px; display: flex; justify-content: center;">
+        <div class="text-center" style="height: 300px;padding-top: 60px;">
+            <p style="font-size: 2.5rem; font-weight: bold;color: white; ">Are you ready to order <br>
+                with the best deals?</p>
+            <button
+                style="background-color: #f27e3b; padding-inline: 30px;font-weight: bold;color: white; border: none;border-radius: 5px; padding-top: 5px;padding-bottom: 5px;">PROCEED
+                TO ORDER</button>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+     <div style="background-color: #212121;padding-top: 1px;height: max-content;">
+
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+        style="display: flex; justify-content: center;background-color:#212121;">
+
+
+
+
+        <div class="col mb-3 ">
+            <h5 style="color: white;font-weight: bolder;">OUR TOP CITIES</h5>
+            <ul class="nav flex-column footer-list" style="margin-top: 25px;">
+                <li class="nav-item mb-2">San Francisco</li>
+                <li class="nav-item mb-2">Miami</li>
+                <li class="nav-item mb-2">San Diego</li>
+                <li class="nav-item mb-2">East Bay</li>
+                <li class="nav-item mb-2">Long Beach</li>
+            </ul>
+        </div>
+
+        <div class="col mb-3 mt-5">
+            <ul class="nav flex-column footer-list">
+                <li class="nav-item mb-2">Los Angeles</li>
+                <li class="nav-item mb-2">Washington DC</li>
+                <li class="nav-item mb-2">Seattle</li>
+                <li class="nav-item mb-2">Portland</li>
+                <li class="nav-item mb-2">Nashville</li>
+            </ul>
+        </div>
+
+        <div class="col mb-3 mt-5">
+            <ul class="nav flex-column footer-list">
+                <li class="nav-item mb-2">New York City</li>
+                <li class="nav-item mb-2">Orange County</li>
+                <li class="nav-item mb-2">Atlanta</li>
+                <li class="nav-item mb-2">Charlotte</li>
+                <li class="nav-item mb-2">Denver</li>
+            </ul>
+        </div>
+        <div class="col mb-3 mt-5">
+
+            <ul class="nav flex-column footer-list">
+                <li class="nav-item mb-2">Chicago</li>
+                <li class="nav-item mb-2">Phoenix</li>
+                <li class="nav-item mb-2">Las Vegas</li>
+                <li class="nav-item mb-2">Sacramento</li>
+                <li class="nav-item mb-2">Oklahoma City</li>
+            </ul>
+           
+        </div>
+    </footer>
+</div>
+    <!-- Footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2e68313844.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
